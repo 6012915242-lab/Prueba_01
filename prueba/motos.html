@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORCENTRO - Motos</title>
+    <link rel="stylesheet" href="./assets/stiles/styless.css">
+</head>
+<body>
+
+    <header>
+        <h1>NORCENTRO</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="motos.html" class="activo">Motos</a>
+            <a href="ofertas.html">Ofertas</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="catalogo-page">
+            <div class="titulo-catalogo">
+                <h2>Catálogo de motos</h2>
+                <button class="btn-filtros">Filtros</button>
+            </div>
+
+            <div class="barra-busqueda">
+                <input type="text" placeholder="Buscar moto...">
+                <button>Buscar</button>
+                <select>
+                    <option value="">Ordenar por</option>
+                    <option value="precio-menor">Precio menor</option>
+                    <option value="precio-mayor">Precio mayor</option>
+                    <option value="deportivas">Deportivas</option>
+                    <option value="urbanas">Urbanas</option>
+                    <option value="adventure">Adventure</option>
+                </select>
+            </div>
+
+            <div class="motos-hover-area">
+                <div class="grid-catalogo">
+
+                    <article class="tarjeta-catalogo">
+                        <div class="img-container">
+                            <img src="./assets/images/yamahar3.jpg" alt="Yamaha R3">
+                        </div>
+                        <h3>Yamaha R3</h3>
+                        <p>321 cc | Deportiva | ABS</p>
+                        <p><strong>$5,500</strong></p>
+                        <a href="./modelos_motos/detalle-yamaha-r3.html" class="btn-dark">Ver más</a>
+                    </article>
+
+                    <article class="tarjeta-catalogo">
+                        <div class="img-container">
+                            <img src="./assets/images/cb190.jpg" alt="HONDA CB 190R - 2026">
+                        </div>
+                        <h3>HONDA CB 190R - 2026</h3>
+                        <p>321 cc | Naked | Ligera</p>
+                        <p><strong>$4,999</strong></p>
+                        <a href="./modelos_motos/detalle-cb190.html" class="btn-dark">Ver más</a>
+                    </article>
+
+                    <article class="tarjeta-catalogo">
+                        <div class="img-container">
+                            <img src="./assets/images/xblade160.jpg" alt="HONDA XBlade 160 - 2026">
+                        </div>
+                        <h3>HONDA XBlade 160 - 2026</h3>
+                        <p>160 cc | Deportiva | Bicilíndrica</p>
+                        <p><strong>$7,299</strong></p>
+                        <a href="./modelos_motos/detalle-xblade160.html" class="btn-dark">Ver más</a>
+                    </article>
+
+                    <article class="tarjeta-catalogo">
+                        <div class="img-container">
+                            <img src="./assets/images/pulsar250.jpg" alt="Bajaj Pulsar 250 - 2026">
+                        </div>
+                        <h3>Bajaj Pulsar 250 - 2026</h3>
+                        <p>250 cc | Deportiva | ABS</p>
+                        <p><strong>$4,499</strong></p>
+                        <a href="./modelos_motos/detalle-pulsar250.html" class="btn-dark">Ver más</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NORCENTRO. Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
